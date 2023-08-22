@@ -1,0 +1,77 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbar {
+    background-color: grey;
+}
+
+a {
+    text-decoration: none;
+  }
+
+.list a {
+    color: white;
+    transition: all 1s;
+    
+}
+
+.list a:hover {
+    background-color: darkgray;
+    letter-spacing: 4px;
+}
+
+nav ul {
+    margin: 0;
+    padding: 10px;
+}
+
+.list {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+    
+}
+
+
+#profile-name {
+    font-size: 42px;
+}
+#profile-box {
+    padding-left: 20px;
+}
+
+.sub-title {
+    font-size: 35px;
+}
+
+
+section {
+    padding: 20px;
+}
+
+.img-box {
+    overflow: hidden;
+    height: 320px;
+    width: 320px;
+}
+#profile {
+    transition: all 1s;
+    
+}
+#profile:hover {
+    transform: scale(1.2);
+}
+.footer {
+    height: 70px;
+    background-color: darkgray;
+    padding-left: 20px;
+    padding-top: 30px;
+}
+
+#detail {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
